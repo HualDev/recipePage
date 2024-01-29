@@ -43,7 +43,7 @@ p{
     border-radius: 1rem;
 }
 
-h2{
+h3{
     color: var(--darkRaspberry);
 }
 
@@ -52,12 +52,14 @@ li{
     height: 3.5rem;
     padding: 1rem;
     color: var(--darkRaspberry);
+    /* list-style-position: inside; */
 }
 
 li span{
     color: var(--darkCharcoal);
     height: 2rem;
 }
+
 
 
 
