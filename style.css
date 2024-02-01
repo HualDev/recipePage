@@ -84,6 +84,10 @@ hr{
     display: flex;
     justify-content: space-around;
 }
+
+.value{
+    color: var(--nutmeg);
+}
 footer{
     font-size: 1rem;
     text-align: center;
