@@ -57,14 +57,19 @@ ul div{
 }
 
 li{
-    width: 80%;
-    padding: 1rem 0 0 0;
+    width: 100%;
+    padding: 0 0 0 0;
     color: var(--darkRaspberry);
 }
 
 li span{
     color: var(--darkCharcoal);
     line-height: 2rem;
+}
+
+ol{
+    margin: 1rem;
+    padding: 0;
 }
 
 hr{
@@ -74,6 +79,11 @@ hr{
 .instructions li{
     color: var(--darkCharcoal);
     line-height: 2rem;
+}
+
+.instructions li::marker{
+    color: var(--nutmeg);
+    font-weight: 600;
 }
 
 .nutrition p{
@@ -95,4 +105,35 @@ footer{
 
 footer a{
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width:650px) {
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--eggshell);
+        padding: 2rem;
+    }
+
+    .container{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        background-color: white;
+        border-radius: 1rem;
+    }
+
+    .image img{
+        border-radius: 0.5rem;
+    }
+
+    main{
+        width: 100%;
+    }
 }
