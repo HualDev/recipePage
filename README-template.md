@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [HualDev](https://github.com/HualDev/recipePage)
-- Live Site URL: [ResultsSummary](https://hualdev.github.io/recipePage/)
+- Live Site URL: [RecipePage](https://hualdev.github.io/recipePage/)
 
 ## My process
 
